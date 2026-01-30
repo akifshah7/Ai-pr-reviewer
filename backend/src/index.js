@@ -6,7 +6,6 @@ app.use(express.json());
 
 app.post("/webhook/github", (req, res) => {
   console.log("Webhook received");
-  console.log("Hi Akif")
   res.status(200).send("OK");
 });
 
